@@ -10,7 +10,7 @@
   background-color: white; 
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(221, 221, 221);
+  border-bottom-color: rgb(235, 228, 228);
   z-index: 100;
 }
 
@@ -139,10 +139,11 @@
 }
 
 .notify-button {
+  position: relative;
   height: 40px;
   width: 40px;
   cursor: pointer;
-  background-color: transparent;
+  background-color: rgb(240, 240, 240);
   border: none;
   border-radius: 50%;
   display: flex;
@@ -153,7 +154,7 @@
 }
 
 .notify-button:hover {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(219, 218, 218);
 }
 
 .notification-icon {
@@ -162,10 +163,29 @@
   fill: #000;
 }
 
+.notify-button-container{
+  position: relative;
+
+}
+
+ .notify-count {
+  position: absolute;
+  top: -1px;
+  right: -3px;
+  background-color: rgb(175, 1, 1);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+
+
 .channel-profile-icon{
   height: 36px;
   width: 36px;
   border-radius: 50%;
   cursor: pointer;
   object-fit: cover;
+  
 }

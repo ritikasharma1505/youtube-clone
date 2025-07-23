@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Header-practice
+    </title>
+  </head>
+  <style>
+    /* Main wrapper styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Target each section */
+.header .left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header .middle {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header .right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Target just the YouTube logo SVG */
+.youtube-logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Target just the mic icon */
+.mic-icon {
+  color: red;
+  cursor: pointer;
+}
+
+/* Target the right-side icons */
+.header .right .material-icons {
+  color: #555;
+  font-size: 24px;
+}
+
+/* Target the menu icon specifically */
+.header .left .material-icons:first-child {
+  color: black;
+}
+
+  </style>
+  <body>
+    <div class="header">
+  <div class="left">
+    <!-- menu icon -->
+    <i class="material-icons">menu</i>
+    <!-- youtube logo SVG -->
+    <div class="youtube-logo">
+      <!-- Hamburger Menu SVG -->
+<svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true">
+  <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+</svg>
+
+<!-- YouTube Logo SVG -->
+<svg class="youtube-logo" xmlns="http://www.w3.org/2000/svg" width="93" height="20" viewBox="0 0 93 20" focusable="false" aria-hidden="true">
+  <!-- SVG content here -->
+</svg>
+    </div>
+  </div>
+  
+  <div class="middle">
+    <!-- search input and mic icon -->
+    <input type="text" placeholder="Search">
+    <i class="material-icons mic-icon">mic</i>
+  </div>
+  
+  <div class="right">
+    <!-- video call, notifications, profile -->
+    <i class="material-icons">video_call</i>
+    <i class="material-icons">notifications</i>
+    <i class="material-icons">account_circle</i>
+  </div>
+</div>
+  </body>
+</html>
+
+
+

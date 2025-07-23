@@ -9,6 +9,20 @@
   border-radius: 6px;
 }
 
+.video-time {
+  background-color: black;
+  opacity: 0.70;
+  color: white;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 18px;
+  right: 15px;
+  padding: 2px 4px 2px 4px;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+}
+
 .video-title {
   margin-top: 10px;
   font-size: 14px;
@@ -38,4 +52,5 @@
 }
 .thumbnail-row {
   margin-bottom: 12px;
+  position: relative;
 }

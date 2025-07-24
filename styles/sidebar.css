@@ -1,8 +1,33 @@
-.sidebar{
-  background-color: rgb(240, 170, 170);
+.sidebar {
   position: fixed;
   top: 65px;
   left: 0;
   bottom: 0;
-  width: 65px; 
+  width: 80px; 
+  z-index:200;
+  background-color: white;
+}
+
+.sidebar-item {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  margin-bottom: 4px;
+  border-radius: 5px;
+}
+
+.sidebar-item:hover {
+  background-color: rgb(233, 230, 230);
+}
+
+.sidebar-item svg {
+  height: 24px;
+}
+
+.sidebar-item div {
+  font-size: 11px;
+  margin-top: 5px;
 }

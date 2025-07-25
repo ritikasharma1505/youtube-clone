@@ -1,6 +1,6 @@
-### This is a demo youtube homepage project using HTML and CSS
+### This is a demo youtube homepage project using HTML and CSS - web deveploment
 
-#### In this demo we learned HTML and CSS
+#### In this demo I learned HTML and CSS web technologies
 
 - HTML and CSS basics
 - Semantic elements
